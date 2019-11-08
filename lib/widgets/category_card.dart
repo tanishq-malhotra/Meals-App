@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import './category_card_screen.dart';
 
 class CatergoryCard extends StatelessWidget {
   final String title;
