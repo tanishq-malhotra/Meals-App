@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CategoryCardScreen extends StatelessWidget {
+  static const routeName = '/category-card-screen';
   @override
   Widget build(BuildContext context) {
     final routesArgs =

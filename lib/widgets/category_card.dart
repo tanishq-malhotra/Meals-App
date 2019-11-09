@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './category_card_screen.dart';
 
 class CatergoryCard extends StatelessWidget {
   final String title;
@@ -8,7 +9,7 @@ class CatergoryCard extends StatelessWidget {
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx).pushNamed(
-      '/category-card-screen',
+      CategoryCardScreen.routeName,
       arguments: {"id": id, "title": title},
     );
   }

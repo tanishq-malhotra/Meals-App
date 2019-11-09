@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       ),
       home: CategoriesScreen(),
       routes: {
-        '/category-card-screen': (ctx) => CategoryCardScreen(),
+        CategoryCardScreen.routeName: (ctx) => CategoryCardScreen(),
       },
     );
   }
