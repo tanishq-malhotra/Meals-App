@@ -83,7 +83,7 @@ class MealCardScreen extends StatelessWidget {
                           ),
                         ),
                         title: Text(
-                          mealData.ingredients[index],
+                          mealData.steps[index],
                         ),
                       ),
                       Divider(),
